@@ -1,0 +1,1 @@
+source ~/root/v6.05.02/bin/thisroot.sh
