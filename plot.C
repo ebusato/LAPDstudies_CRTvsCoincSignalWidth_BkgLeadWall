@@ -39,13 +39,13 @@ void plot(int Nbins = 80, float Xmin = -40, float Xmax = 55) {
   hb->Draw("same");
 
   TLegend* leg = new TLegend(0.48,0.48,0.90,0.74);
-  leg->AddEntry(h5, "coinc. width = 4.16 ns (+ 0 #rightarrow 4.16 ns)", "f");
-  leg->AddEntry(h6, "coinc. width = 8.32 ns (+ 0 #rightarrow 4.16 ns)", "f");
-  leg->AddEntry(h7, "coinc. width = 12.48 ns (+ 0 #rightarrow 4.16 ns)", "f");
-  leg->AddEntry(h8, "coinc. width = 16.64 ns (+ 0 #rightarrow 4.16 ns)", "f");
-  leg->AddEntry(h9, "coinc. width = 20.80 ns (+ 0 #rightarrow 4.16 ns)", "f");
-  leg->AddEntry(ha, "coinc. width = 24.96 ns (+ 0 #rightarrow 4.16 ns)", "f");
-  leg->AddEntry(hb, "coinc. width = 29.12 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(h5, "coinc. window = 4.16 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(h6, "coinc. window = 8.32 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(h7, "coinc. window = 12.48 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(h8, "coinc. window = 16.64 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(h9, "coinc. window = 20.80 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(ha, "coinc. window = 24.96 ns (+ 0 #rightarrow 4.16 ns)", "f");
+  leg->AddEntry(hb, "coinc. window = 29.12 ns (+ 0 #rightarrow 4.16 ns)", "f");
   leg->SetLineWidth(0);
   leg->Draw();
   
